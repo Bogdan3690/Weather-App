@@ -1,9 +1,11 @@
+import { HeaderStyled } from './Header.styled';
+
 export const Header = () => {
     return(
-        <header>
+        <HeaderStyled>
             <div className="container">
-                <img src="" alt="" />
-                <ul>
+                <img src="../../images/logo.png" alt="" />
+                <ul className='nav-list'>
                     <li><a href="">Who we are</a></li>
                     <li><a href="">Contacts</a></li>
                     <li><a href="">Menu</a></li>
@@ -13,6 +15,6 @@ export const Header = () => {
                 <img src="" alt="" />
                 </div>
             </div>
-        </header>
+        </HeaderStyled>
     )
 }

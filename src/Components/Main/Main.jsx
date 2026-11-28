@@ -1,6 +1,9 @@
+// import { fetchWeather } from './servises/service'
+import { MainStyled } from './Main.styled';
+
 export const Main = () => {
   return (
-    <main>
+    <MainStyled>
       <section className="hero">
         <div className="container">
         <h1>Weather dashboard</h1>
@@ -24,6 +27,6 @@ export const Main = () => {
             <li></li>
         </ul>
       </section>
-    </main>
+    </MainStyled>
   );
 };
